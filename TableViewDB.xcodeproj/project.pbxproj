@@ -13,6 +13,11 @@
 		EF5154E61D6FF1D70054F88B /* TableViewDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF5154E41D6FF1D70054F88B /* TableViewDB.xcdatamodeld */; };
 		EF5154E81D6FF1D70054F88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5154E71D6FF1D70054F88B /* Assets.xcassets */; };
 		EF5154EB1D6FF1D70054F88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5154E91D6FF1D70054F88B /* LaunchScreen.storyboard */; };
+		EF5154F31D6FF3400054F88B /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5154F21D6FF3400054F88B /* Messages.swift */; };
+		EF5154F51D7003290054F88B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5154F41D7003290054F88B /* DetailViewController.swift */; };
+		EF5154F71D70091F0054F88B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5154F61D70091F0054F88B /* ListViewController.swift */; };
+		EF5154F91D70096C0054F88B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5154F81D70096C0054F88B /* Item.swift */; };
+		EF5154FB1D7009D20054F88B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5154FA1D7009D20054F88B /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		EF5154E71D6FF1D70054F88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF5154EA1D6FF1D70054F88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF5154EC1D6FF1D70054F88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5154F21D6FF3400054F88B /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		EF5154F41D7003290054F88B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EF5154F61D70091F0054F88B /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EF5154F81D70096C0054F88B /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EF5154FA1D7009D20054F88B /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				EF5154DD1D6FF1D70054F88B /* AppDelegate.swift */,
 				EF5154DF1D6FF1D70054F88B /* ViewController.swift */,
+				EF5154F61D70091F0054F88B /* ListViewController.swift */,
+				EF5154F41D7003290054F88B /* DetailViewController.swift */,
+				EF5154F81D70096C0054F88B /* Item.swift */,
+				EF5154FA1D7009D20054F88B /* Cell.swift */,
 				EF5154E11D6FF1D70054F88B /* Main.storyboard */,
 				EF5154E71D6FF1D70054F88B /* Assets.xcassets */,
 				EF5154E91D6FF1D70054F88B /* LaunchScreen.storyboard */,
 				EF5154EC1D6FF1D70054F88B /* Info.plist */,
 				EF5154E41D6FF1D70054F88B /* TableViewDB.xcdatamodeld */,
+				EF5154F21D6FF3400054F88B /* Messages.swift */,
 			);
 			path = TableViewDB;
 			sourceTree = "<group>";
@@ -140,6 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF5154E61D6FF1D70054F88B /* TableViewDB.xcdatamodeld in Sources */,
+				EF5154F31D6FF3400054F88B /* Messages.swift in Sources */,
+				EF5154F71D70091F0054F88B /* ListViewController.swift in Sources */,
+				EF5154F51D7003290054F88B /* DetailViewController.swift in Sources */,
+				EF5154F91D70096C0054F88B /* Item.swift in Sources */,
+				EF5154FB1D7009D20054F88B /* Cell.swift in Sources */,
 				EF5154E01D6FF1D70054F88B /* ViewController.swift in Sources */,
 				EF5154DE1D6FF1D70054F88B /* AppDelegate.swift in Sources */,
 			);
